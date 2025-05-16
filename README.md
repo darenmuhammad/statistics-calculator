@@ -8,3 +8,6 @@
 6. sort
    The .sort() method mutates the original array - in other words, it modifies the order of the elements directly.
 7. toSorted()
+8. learn how to count an occurrence of numbers
+9. set
+10. object.values()

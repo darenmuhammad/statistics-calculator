@@ -12,7 +12,12 @@ const getMedian = (array) => {
 };
 
 const getMode = (array) => {
-
+    const counts = {};
+    array.forEach((el) => counts[el] ? counts[el] += 1 : counts[el] = 1);
+    if (new Set(Object.values(counts)).size === 1) {
+        return null;
+    }
+    const highest = Object.keys(counts);
 };
 
 const calculate = () => {
